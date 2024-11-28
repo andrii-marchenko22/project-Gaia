@@ -37,24 +37,9 @@ body {
 
 }
 
-.page-header .link-text:hover {
-    color: #404bbf;
-}
-
-.link-text-studio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-style: normal;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-}
-
-.link-text-studio:hover,
-.link-text-studio:focus,
-.link-text-studio:active {
+.link-text:hover,
+.link-text:focus,
+.link-text:active {
     color: #404bbf;
 }
 
@@ -133,11 +118,11 @@ color: #404bbf;
 .lists-advantages {
     list-style-type: none;
 }
-
-.section-three {
-    background-color: #f4f4fd;
-}
 /* =============== section 3 ================== */
+.section-three {
+    background-color:  #f4f4fd;
+}
+
 .section-title-three {
     font-weight: 700;
     font-size: 36px;
@@ -166,9 +151,9 @@ color: #404bbf;
     color: #434455;
 }
 
-.lists-team {
+.section-three .lists-team {
     list-style-type: none;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 /* ===================== section 4 =================== */
