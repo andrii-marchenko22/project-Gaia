@@ -1,15 +1,17 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /*  ========================= header ================== */
 .logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto","Raleway", sans-serif;
     text-decoration: none;
 }
 
@@ -93,7 +95,7 @@ body {
 }
 /*  ==================== section 1 ================== */
 .section-one {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .main-title {
@@ -111,7 +113,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 }
 /* ================= section 2 ==================== */
 .lists-advantages .title-three {
@@ -135,7 +137,7 @@ body {
 }
 
 .section-three {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 /* =============== section 3 ================== */
 .section-title-three {
@@ -206,7 +208,7 @@ body {
 }
 
 .footer-section {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .footer-text {
