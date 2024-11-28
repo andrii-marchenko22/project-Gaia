@@ -11,7 +11,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    font-family: "Roboto","Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ body {
 .page-header .link-text:hover {
     color: #404bbf;
 }
+
 .link-text-studio {
     font-weight: 500;
     font-size: 16px;
@@ -52,38 +53,28 @@ body {
 }
 
 .link-text-studio:hover,
+.link-text-studio:focus,
 .link-text-studio:active {
     color: #404bbf;
 }
 
-.contacts .link-mail {
+.contacts {
+    font-style: normal;
+}
+
+.contacts .link-address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
 }
 
-.contacts .link-mail:hover {
-    color: #404bbf;
-}
-
-.contacts .link-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-}
-
-.contacts .link-tel:hover {
-    color: #404bbf;
+.contacts .link-address:hover,
+.contacts .link-address:focus {
+color: #404bbf;
 }
 
 .nav-menu {
@@ -113,8 +104,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;
+    background-color: #4d5ae5;;
+    cursor: pointer;
 }
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF
+}
+
 /* ================= section 2 ==================== */
 .lists-advantages .title-three {
     font-weight: 500;
@@ -147,6 +145,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .lists-team .section-title-team {
@@ -169,6 +168,7 @@ body {
 
 .lists-team {
     list-style-type: none;
+    background-color: #FFFFFF
 }
 
 /* ===================== section 4 =================== */
@@ -179,6 +179,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .lists-portfolio {
