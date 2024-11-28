@@ -151,10 +151,14 @@ color: #404bbf;
     color: #434455;
 }
 
-.section-three .lists-team {
+.lists-team {
     list-style-type: none;
-    background-color: #FFFFFF;
 }
+
+.lists-team .team-people {
+    background: #ffffff;
+}
+
 
 /* ===================== section 4 =================== */
 .title-portfolio {
