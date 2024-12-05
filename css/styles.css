@@ -3,7 +3,51 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
 /*  ========================= header ================== */
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header div {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+}
+
 .logo {
     font-weight: 700;
     font-size: 18px;
@@ -13,6 +57,7 @@ body {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -59,19 +104,30 @@ body {
 
 .contacts .link-address:hover,
 .contacts .link-address:focus {
-color: #404bbf;
+    color: #404bbf;
 }
 
 .nav-menu {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin: 24px 0;
 }
 
 .nav-address {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin: 24px 0;
 }
+
 /*  ==================== section 1 ================== */
 .section-one {
     background-color: #2e2f42;
+}
+
+.section-one div {
+    height: 600px;
 }
 
 .main-title {
@@ -81,6 +137,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    justify-content: center;
 }
 
 .main-button {
@@ -99,12 +156,14 @@ color: #404bbf;
 }
 
 /* ================= section 2 ==================== */
+
 .lists-advantages .title-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .lists-advantages .text-one {
@@ -113,11 +172,18 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 0;
 }
 
 .lists-advantages {
     list-style-type: none;
+    padding: 120px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: baseline;
 }
+
 /* =============== section 3 ================== */
 .section-three {
     background-color:  #f4f4fd;
