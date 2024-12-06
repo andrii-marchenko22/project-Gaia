@@ -61,6 +61,7 @@ ul {
     width: 115px;
     height: 24px;
     margin-left: 0;
+    display: inline-block;
 }
 
 .logo-studio {
@@ -129,7 +130,6 @@ ul {
 /*  ==================== section 1 ================== */
 .section-one {
     background-color: #2e2f42;
-
 }
 
 .section-one div {
@@ -139,7 +139,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 .main-title {
@@ -360,10 +359,17 @@ ul {
 
 .footer-section .logo-studio {
     color: #f4f4fd;
+    width: 115px;
+    height: 24px;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
 .footer-section {
     background-color: #2e2f42;
+    height: 312px;
+    padding: 100px 0;
 }
 
 .footer-text {
@@ -372,4 +378,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
