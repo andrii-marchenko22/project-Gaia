@@ -63,9 +63,9 @@ ul {
     text-decoration: none;
     margin-right: 76px;
     width: 115px;
-    height: 24px;
     margin-left: 0;
     display: inline-block;
+    padding: 24px 0;
 }
 
 .logo-studio {
@@ -120,14 +120,14 @@ ul {
     display: flex;
     gap: 40px;
     width: 261px;
-    height: 24px;
+    padding: 24px 0;
 }
 
 .nav-address {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    height: 24px;
+    padding: 24px 0;
 }
 
 /*  ==================== section 1 ================== */
@@ -200,10 +200,9 @@ ul {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: 0;
+    margin: -1px;
     padding: 0;
     border: none;
-    background-color: none;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -273,15 +272,15 @@ ul {
 .lists-team {
     list-style-type: none;
     display: flex;
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .lists-team .team-people {
     background: #ffffff;
-    width: 264px;
-    height: 380px;
+    /* width: 264px; */
+    /* height: 380px; */
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .avatar-team {
