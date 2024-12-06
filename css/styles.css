@@ -275,13 +275,12 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .lists-team .team-people {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
-
+    width: calc((100% - 72px) / 4);
 }
 
 .avatar-team {
