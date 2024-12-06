@@ -213,12 +213,12 @@ ul {
 /* =============== section 3 ================== */
 .section-three {
     background-color:  #f4f4fd;
-    /* padding: 120px 0; */
 }
 
 .section-three .container {
     width: 1158px;
     height: 732px;
+
 }
 
 .section-title-three {
@@ -228,8 +228,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    max-width: 1158px;
-    padding-top: 124px;
+    max-width: 1128px;
+    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -257,13 +257,14 @@ ul {
     gap: 24px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 116px;
+    padding-bottom: 120px;
 }
 
 .lists-team .team-people {
     background: #ffffff;
     width: 264px;
     height: 380px;
+    border-radius: 0 0 4px 4px;
 }
 
 .avatar-team {
@@ -285,6 +286,12 @@ ul {
 }
 
 /* ===================== section 4 =================== */
+
+.section-four .container {
+    width: 1128px;
+    padding: 120px 0;
+}
+
 .title-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -293,6 +300,8 @@ ul {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    width: 1128px;
+    padding-bottom: 72px;
 }
 
 .lists-portfolio {
@@ -305,6 +314,9 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: start;
+    padding-top: 32px;
+    padding-left: 16px;
 }
 
 .lists-portfolio .lists-portfolio-text {
@@ -313,6 +325,35 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: start;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    gap: 8px;
+}
+
+.potfolio-avatar {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.blok-one-cont {
+    display: flex;
+    gap: 24px;
+    width: 1128px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.bloblok-two-cont {
+    display: flex;
+    gap: 24px;
+    width: 1128px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ==================== footer ======================== */
