@@ -89,6 +89,7 @@ ul {
     font-style: normal;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    padding: 24px 0;
 
 }
 
@@ -130,9 +131,6 @@ ul {
     gap: 40px;
 }
 
-.nav-menu .lists-item {
-    padding: 24px 0;
-}
 
 /*  ==================== section 1 ================== */
 .section-one {
@@ -283,6 +281,7 @@ ul {
 .lists-team .team-people {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
+
 }
 
 .avatar-team {
