@@ -30,11 +30,11 @@ ul {
 }
 
 .container {
-    width: 1158px;
+    width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .page-header div {
@@ -58,6 +58,9 @@ ul {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     margin-right: 76px;
+    width: 115px;
+    height: 24px;
+    margin-left: 0;
 }
 
 .logo-studio {
@@ -112,6 +115,8 @@ ul {
     display: flex;
     gap: 40px;
     margin: 24px 0;
+    width: 261px;
+    height: 24px;
 }
 
 .nav-address {
@@ -124,10 +129,17 @@ ul {
 /*  ==================== section 1 ================== */
 .section-one {
     background-color: #2e2f42;
+
 }
 
 .section-one div {
     height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
 .main-title {
@@ -135,9 +147,12 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
-    justify-content: center;
+    text-align: center;
+    width: 496px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-button {
@@ -148,6 +163,14 @@ ul {
     color: #fff;
     background-color: #4d5ae5;;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    align-content: center;
+    white-space: nowrap;
+    margin-top: 48px;
 }
 
 .main-button:hover,
@@ -157,6 +180,7 @@ ul {
 
 /* ================= section 2 ==================== */
 
+
 .lists-advantages .title-three {
     font-weight: 500;
     font-size: 20px;
@@ -164,6 +188,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-bottom: 8px;
+    width: 264px;
 }
 
 .lists-advantages .text-one {
@@ -173,20 +198,27 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     padding: 0;
+    width: 264px;
 }
 
 .lists-advantages {
     list-style-type: none;
-    padding: 120px 0;
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: baseline;
+    padding: 120px 0;
 }
 
 /* =============== section 3 ================== */
 .section-three {
     background-color:  #f4f4fd;
+    /* padding: 120px 0; */
+}
+
+.section-three .container {
+    width: 1158px;
+    height: 732px;
 }
 
 .section-title-three {
@@ -196,7 +228,9 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
+    max-width: 1158px;
+    padding-top: 124px;
+    margin-bottom: 72px;
 }
 
 .lists-team .section-title-team {
@@ -219,12 +253,36 @@ ul {
 
 .lists-team {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 116px;
 }
 
 .lists-team .team-people {
     background: #ffffff;
+    width: 264px;
+    height: 380px;
 }
 
+.avatar-team {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cont-comand {
+    width: 232px;
+    height: 56px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 32px 16px;
+}
 
 /* ===================== section 4 =================== */
 .title-portfolio {
