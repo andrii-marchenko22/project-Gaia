@@ -39,11 +39,11 @@ ul {
 
 .page-header div {
     display: flex;
-
 }
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .navigation {
@@ -66,7 +66,6 @@ ul {
     height: 24px;
     margin-left: 0;
     display: inline-block;
-    padding: 24px 0;
 }
 
 .logo-studio {
@@ -122,7 +121,6 @@ ul {
     gap: 40px;
     width: 261px;
     height: 24px;
-    padding: 24px 0;
 }
 
 .nav-address {
@@ -130,7 +128,6 @@ ul {
     display: flex;
     gap: 40px;
     height: 24px;
-    padding: 24px 0;
 }
 
 /*  ==================== section 1 ================== */
@@ -196,9 +193,21 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
-    width: 264px;
     margin-bottom: 8px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: none;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .lists-advantages .text-one {
@@ -208,19 +217,20 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     padding: 0;
-    width: 264px;
+
 }
 
 .lists-advantages {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    padding: 120px 0;
+    align-items: center;
+    gap: 24px;
 }
 
 .advantages-items {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
+
 }
 /* =============== section 3 ================== */
 .section-three {
@@ -228,10 +238,7 @@ ul {
 }
 
 .section-three .container {
-    width: 1158px;
-    height: 732px;
     padding: 32px 0;
-
 }
 
 .section-title-three {
@@ -241,8 +248,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    max-width: 1128px;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -269,9 +274,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 120px;
+    width: calc((100% - 72px) / 4);
 }
 
 .lists-team .team-people {
@@ -297,14 +300,11 @@ ul {
     flex-direction: column;
     text-align: center;
     margin: 32px 16px;
+    padding: 32px 0;
 }
 
 /* ===================== section 4 =================== */
 
-.section-four .container {
-    width: 1128px;
-    padding: 120px 0;
-}
 
 .title-portfolio {
     font-weight: 700;
@@ -314,7 +314,6 @@ ul {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    width: 1128px;
     margin-bottom: 72px;
 }
 
@@ -358,24 +357,6 @@ ul {
 
 .potfolio-items {
     width: calc((100% - 48px) / 3);
-}
-
-.blok-one-cont {
-    display: flex;
-    gap: 24px;
-    width: 1128px;
-    height: 420px;
-    align-items: center;
-    justify-content: center;
-}
-
-.bloblok-two-cont {
-    display: flex;
-    gap: 24px;
-    width: 1128px;
-    height: 420px;
-    align-items: center;
-    justify-content: center;
 }
 
 .blok-text {
