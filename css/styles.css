@@ -52,7 +52,7 @@ ul {
     margin-right: auto;
 }
 
-.logo {
+.logo { 
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -65,9 +65,10 @@ ul {
     width: 115px;
     margin-left: 0;
     display: inline-block;
-    /* padding: 24px 0; */
     margin-bottom: 16px;
+    
 }
+
 
 .logo-studio {
     font-weight: 700;
@@ -121,14 +122,16 @@ ul {
     display: flex;
     gap: 40px;
     width: 261px;
-    /* padding: 24px 0; */
 }
 
 .nav-address {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    /* padding: 24px 0; */
+}
+
+.nav-menu .lists-item {
+    padding: 24px 0;
 }
 
 /*  ==================== section 1 ================== */
