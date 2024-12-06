@@ -355,6 +355,10 @@ ul {
     justify-content: center;
 }
 
+.potfolio-items {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 /* ==================== footer ======================== */
 
 .footer-section .logo-studio {
