@@ -276,7 +276,6 @@ ul {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
-    width: 264px;
 }
 
 .avatar-team {
