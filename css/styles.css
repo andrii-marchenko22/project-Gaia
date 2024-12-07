@@ -39,11 +39,11 @@ ul {
 
 .page-header div {
     display: flex;
+    align-items: center;
 }
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .navigation {
@@ -65,8 +65,6 @@ ul {
     width: 115px;
     margin-left: 0;
     display: inline-block;
-    margin-bottom: 16px;
-    
 }
 
 
@@ -90,6 +88,7 @@ ul {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 
 }
 
@@ -238,10 +237,6 @@ ul {
     background-color:  #f4f4fd;
 }
 
-.section-three .container {
-    padding: 32px 0;
-}
-
 .section-title-three {
     font-weight: 700;
     font-size: 36px;
@@ -281,6 +276,7 @@ ul {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
+    width: 264px;
 }
 
 .avatar-team {
@@ -290,15 +286,11 @@ ul {
 }
 
 .cont-comand {
-    width: 232px;
-    height: 56px;
-    display: flex;
     gap: 8px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin: 32px 16px;
     padding: 32px 0;
 }
 
@@ -331,8 +323,6 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: start;
-    padding-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px
 }
 
@@ -343,8 +333,6 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: start;
-    padding-left: 16px;
-    padding-bottom: 32px;
     gap: 8px;
 }
 
@@ -389,4 +377,9 @@ ul {
     color: #f4f4fd;
     max-width: 264px;
     margin-top: 16px;
+}
+
+.log-foot {
+    margin-bottom: 16px;
+    display: inline-block;
 }
