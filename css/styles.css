@@ -137,6 +137,10 @@ ul {
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 }
 
 .section-one div {
@@ -291,6 +295,30 @@ ul {
     flex-direction: column;
     text-align: center;
     padding: 32px 0;
+}
+
+.lists-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.items-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    fill: #f4f4fd;
 }
 
 /* ===================== section 4 =================== */
