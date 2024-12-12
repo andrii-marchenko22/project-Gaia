@@ -130,6 +130,18 @@ ul {
     gap: 40px;
 }
 
+.studio-element::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    display: block;
+    position: absolute;
+}
+
+
+
 
 /*  ==================== section 1 ================== */
 .section-one {
@@ -234,8 +246,18 @@ ul {
 
 .advantages-items {
     width: calc((100% - 72px) / 4);
-
 }
+
+.cont-icons-section {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
+
+
 /* =============== section 3 ================== */
 .section-three {
     background-color:  #f4f4fd;
@@ -268,6 +290,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 8px;
 }
 
 .lists-team {
@@ -316,9 +339,12 @@ ul {
 }
 
 .icon {
+    fill: #f4f4fd;
+}
+
+.icons-link {
     width: 16px;
     height: 16px;
-    fill: #f4f4fd;
 }
 
 /* ===================== section 4 =================== */
