@@ -257,6 +257,11 @@ ul {
     margin-bottom: 8px;
 }
 
+.cont-icons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* =============== section 3 ================== */
 .section-three {
