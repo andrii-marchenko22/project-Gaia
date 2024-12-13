@@ -481,3 +481,50 @@ ul {
     margin-bottom: 16px;
     display: inline-block;
 }
+
+.icons-lists-foot {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.items-icons-foot:hover,
+.items-icons-foot:focus {
+    background-color: #31D0AA;
+}
+
+.container-lists-foot {
+    width: 208px;
+    height: 80px;
+    padding: 0;
+    margin-top: 16px;
+    margin-left: 120px;
+}
+
+.text-icon-main {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.container-for-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.container-in-foot {
+    width: 280px; 
+    margin-right: 120px;
+    margin: 0;
+    padding: 0;
+}
+
