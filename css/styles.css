@@ -459,10 +459,9 @@ ul {
     font-family: "Roboto", sans-serif;
 }
 
-.potfolio-items-container:hover .overlay-text,
-.potfolio-items-container:focus .overlay-text {
+.potfolio-items:hover .overlay-text,
+.potfolio-items:focus .overlay-text {
     transform: translateY(0%);
-
 }
 
 /* ==================== footer ======================== */
