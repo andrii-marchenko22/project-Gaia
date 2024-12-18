@@ -502,18 +502,53 @@
       </div>
     </footer>
 
-    <div class="model-overlay in-open">
-      <div class="model-form-container">
-        <p class="model-text-overlay">
+    <div class="modal-overlay is-open">
+      <div class="modal-form-container">
+        <p class="modal-text-overlay">
           Leave your contacts and we will call you back
         </p>
-        <form class="model-form-window">
-          <label class="name-inp-title" for="name">Name</label>
-          <input class="name-inp" type="text" id="name" />
-          <label class="name-inp-title" for="phone">Phone</label>
-          <input class="name-inp" type="tel" id="phone" />
-          <label class="name-inp-title" for="e-mail">Email</label>
-          <input class="name-inp" type="email" id="e-mail" />
+        <button type="button" class="modal-close">
+          <svg class="icon-modal-clode" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"> 
+          </svg>
+        </button>
+        <form class="modal-form-window">
+          <div class="form-title-name">
+            <label class="name-title-inp" for="name-user">Name</label>
+            <div class="form-main">
+              <input class="name-inp" type="text" id="name-user" />
+              <svg class="form-icon-add" width="12" height="12"> 
+                <use href="./images/icons.svg#icon-user"> 
+              </svg>
+            </div>
+          </div>
+          <div class="form-title-name">
+            <label class="name-title-inp" for="name-tel">Phone</label>
+            <div class="form-main">
+              <input class="name-inp" type="tel" id="name-tel" />
+              <svg class="form-icon-add" width="13" height="13"> 
+                <use href="./images/icons.svg#icon-call"> 
+              </svg>
+            </div>
+          </div>
+          <div class="form-title-name">
+            <label class="name-title-inp" for="name-email">Email</label>
+            <div class="form-main">
+              <input class="name-inp" type="email" id="name-email" />
+              <svg class="form-icon-add" width="15" height="12"> 
+                <use href="./images/icons.svg#icon-email"> 
+              </svg>
+            </div>
+          </div>
+          <div class="form-wrraper-container">
+            <label class="name-title-inp" for="form-title">Comment</label>
+            <textarea class="comment-container" id="form-title" placeholder="Text input"></textarea>
+          </div>
+          <div class="form-deal">
+            <input type="checkbox" class="checkbox visually-hidden" name="checkbox" id="checkbox-inp">
+            <label for="checkbox-inp" class="checkbox-title"><span class="deal-allow"><svg width="10" height="8" class="check-icon"><use href="./images/icons.svg#icon-done"></svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+          </div>
+          <button class="send-form" type="submit">Send</button>
         </form>
       </div>
     </div>
