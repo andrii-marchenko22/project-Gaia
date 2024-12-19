@@ -704,8 +704,12 @@ ul {
 .modal-close:focus {
     background-color: #404BBF;
     border: none;
-    fill: #ffffff;
 }
+
+.modal-close:hover svg,
+.modal-close:focus svg {
+    fill: #ffffff;
+ }
 
 .form-title-name {
     margin-bottom: 8px;
@@ -724,8 +728,6 @@ ul {
 
 .form-main {
     position: relative;
-
-
 }
 
 .name-inp {
