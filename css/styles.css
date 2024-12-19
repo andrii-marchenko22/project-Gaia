@@ -752,6 +752,9 @@ ul {
 
 .name-inp:focus {
     border-color: #4D5AE5;
+}
+
+input:focus+.form-icon-add {
     fill: #4D5AE5;
 }
 
