@@ -657,8 +657,6 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     
-
-
 }
 
 .modal-text-overlay {
@@ -727,6 +725,7 @@ ul {
 .form-main {
     position: relative;
 
+
 }
 
 .name-inp {
@@ -749,7 +748,8 @@ ul {
     transform: translateY(-50%);
 }
 
-.name-inp:focus .form-icon-add {
+.name-inp:focus {
+    border-color: #4D5AE5;
     fill: #4D5AE5;
 }
 
@@ -818,7 +818,7 @@ ul {
 }
 
 
-.checkbox:checked + .label > span {
+.checkbox:checked + .checkbox-title > span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
@@ -826,11 +826,19 @@ ul {
 
 
 .checkbox-title a {
-    line-height: 1.33333;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
  }
+
+.checkbox-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
 
  .send-form {
     font-weight: 500;
