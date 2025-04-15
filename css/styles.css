@@ -1,4 +1,4 @@
-@import url("https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat-Regular");
+@import url(https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat-Regular);
 
 body {
   font-family: "Moderat", sans-serif;
@@ -242,7 +242,7 @@ a {
     border-radius: 60px;
     max-width: 100%;
     height: 1080px;
-    background-image: url("/images/background.webp");
+    background-image: url("../images/background.webp");
     background-position: center center;
     background-repeat: no-repeat;
 }
