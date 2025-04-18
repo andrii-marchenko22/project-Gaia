@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.3/dist/simple-lightbox.min.css">
+
   </head>
 
   <body>
@@ -24,10 +27,10 @@
               <a href="./index.html" class="link-text">Home</a>
             </li>
             <li class="lists-item">
-              <a href="" class="link-text">About</a>
+              <a href="#about-page" class="link-text">About</a>
             </li>
             <li class="lists-item">
-              <a href="" class="link-text">Our Focus</a>
+              <a href="#focus-page" class="link-text">Our Focus</a>
             </li>
           </ul>
           <div class="nav-else">
@@ -72,7 +75,7 @@
         
         
       <!------------------------------- section 3  -------------------------->
-      <section class="section-three"></section>
+      <section id="about-page" class="section-three"></section>
       <div class="container section-cont-two">
         <h1 class="title-section">About Gaia</h1>
         <ul class="list-about">
@@ -110,10 +113,18 @@
       </div>
 
       <!------------------------------- section 4  -------------------------->
-      <section class="section-four"></section>
+      <section id="focus-page" class="section-four"></section>
       <div class="container cont-flex">
-        <div class="picture-cont-one"></div>
-        <div class="picture-cont-two"></div>
+        <div class="picture-cont-one">
+          <a href="./images/picture-1.jpg" data-lightbox="gallery" data-title="Farming Image">
+            <img src="./images/picture-1.jpg" alt="Farming Image" />
+          </a>
+        </div>
+        <div class="picture-cont-two">
+          <a href="./images/picture-2.jpg" data-lightbox="gallery" data-title="Clean Energy Image">
+            <img src="./images/picture-2.jpg" alt="Clean Energy Image" />
+          </a>
+        </div>
         <div class="container construct-cont">
         <div class="cont-describe">
           <p class="text-describe"><span class="paragraph">Farming:</span><br>While our primary focus is on clean energy, we also support and develop organic farming practices, contributing to local biodiversity and sustainable agriculture.</p>
@@ -128,12 +139,56 @@
         </div>
         </div>
       </div>
+</main>
 
       <!------------------------------- footer  -------------------------->
       <footer class="footer-section">
       <div class="container">
-
-
-</main>
+        <div class="lineal-block">
+          <div class="cont-logo-footer">
+            <a href="./index.html" class="logo-footer">
+              <img src="./images/logo.webp" alt="logotip">
+            </a>
+          </div>
+          <div class="icon-hend-footer">
+            <svg class="icon-elips" width="80" height="344">
+              <use href="/images/sprite.svg#icon-footer" />
+            </svg>
+            <img class="picture-hand-right" src="./images/hand.webp" alt="hand-right">
+          </div>
+        <div class="form-container">
+          <p class="title-ipmut">Subscribe To Newsletter</p>
+          <form class="form-footer">
+            <label for="mail" class="lab-foot">
+              <input
+                class="email-text"
+                type="email"
+                id="mail"
+                name="email"
+                placeholder="Enter your email"
+                required />
+              </label>
+            <button class="butt-subsc" type="submit">Subscribe</button>
+          </form>
+        </div>
+        </div>
+      <div class="cont-address">
+        <address class="describe-address">
+          <div class="text-address">
+            Arçelik A.Ş.<br>
+            Karaagac Street No: 2&nbsp;6<br>
+            34445 Sütlüce, Beyoğlu<br>
+            Istanbul, Turkey<br>
+          </div>
+          <div class="item-address">
+            <a href="tel:+0212345678"><span>T: </span>0212-34 56 78</a><br>
+            <a href="mailto:contact@gaia.com.tr"><span>M: </span>contact@gaia.com.tr</a>
+          </div>
+        </address>
+      </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.3/dist/simple-lightbox.min.js"></script>
+      <script src="./js/gaia.js"></script>
   </body>
 </html>
+

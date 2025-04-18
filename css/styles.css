@@ -1,5 +1,9 @@
 @import url(https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat-Regular);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: "Moderat", sans-serif;
   color: #434455;
@@ -49,6 +53,12 @@ a {
 .page-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fdf9ed;
 }
 
 .navigation {
@@ -148,6 +158,7 @@ a {
     background: linear-gradient(120deg, #204d38, #178202, #204d38);
 }
 
+
 .btn-join-us span {
     position: relative;
     z-index: 2;
@@ -213,6 +224,7 @@ a {
     margin-bottom: 71px;
 }
 
+
 .scroll-container {
     display: flex;
     align-items: flex-start;
@@ -236,7 +248,19 @@ a {
     border-radius: 50%;
     width: 93px;
     height: 93px;
-    transition: transform 0.1s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-btn:hover,
+.scroll-btn:focus {
+    box-shadow: 0 36px 50px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px);
+}
+
+.scroll-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.3);
 }
 
 .img-grow {
@@ -363,5 +387,129 @@ a {
     color: #204d38;
 }
 
+   /* < !----------- footer ---------->  */
+
+.footer-section {
+    border-top: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+.lineal-block {
+    width: 1824px;
+    height: 222px;
+    margin-top: 120px;
+    margin-bottom: 58px;
+    display: flex;
+    flex-wrap: wrap;   
+}
 
 
+.cont-logo-footer {
+    width: 197px;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 606px;
+}
+
+
+.cont-address {
+    margin-bottom: 105px;
+}
+
+.describe-address {
+    display: flex;
+    gap: 120px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #183722;
+    font-style: normal;
+    align-items: flex-end;
+}
+
+.text-address,
+.item-address,
+.item-address a {
+    font-style: normal;
+    color: #183722;
+}
+
+.form-container {
+    width: 472px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-ipmut {
+    font-weight: 400;
+    font-size: 30px;
+    color: #183722;
+    margin-bottom: 27px;
+}
+
+.email-text {
+    border: 1px solid rgba(24, 55, 34, 0.6);
+    border-radius: 5px;
+    width: 472px;
+    height: 55px;
+    padding-left: 13px;
+    margin-bottom: 15px;
+}
+
+
+.email-text::placeholder {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #183722;
+}
+
+.butt-subsc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #183722;
+    border-radius: 70px;
+    padding: 11px 53px;
+    width: 239px;
+    height: 62px;
+    background: #183722;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fdf9ed;
+}
+
+.icon-hend-footer {
+    width: 448px;
+    height: 343px;
+    display: flex;
+    justify-content: flex-start;;
+    position: relative;
+    z-index: 3;
+    margin-right: 100px;
+
+}
+
+.icon-elips {
+    position: relative;
+    z-index: 1;
+    margin-top: 8%;
+}
+
+.picture-hand-right {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 999;
+    pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.icon-hend-footer:hover .picture-hand-right {
+    transform: rotate(-90deg);
+}
