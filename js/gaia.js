@@ -1,12 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-    let lightbox = new SimpleLightbox('[data-lightbox="gallery"]', {
-    captions: true,          
-    captionsData: 'title',     
-    captionDelay: 250         
-  });
-});
-
-
 const smoothScroll = () => {
     const scrollBtn = document.querySelector('.scroll-btn');
         
@@ -31,3 +22,14 @@ const JoinBtn = document.querySelector(".btn-join-us");
 JoinBtn.addEventListener("click", (event) => {
     JoinBtn.blur()
 })
+
+
+
+const dot = document.createElement('div');
+dot.classList.add('cursor-dot');
+document.body.appendChild(dot);
+
+document.addEventListener('mousemove', (event) => {
+  dot.style.top = `${event.clientY}px`;
+  dot.style.left = `${event.clientX}px`;
+});
