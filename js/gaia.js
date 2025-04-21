@@ -33,3 +33,21 @@ document.addEventListener('mousemove', (event) => {
   dot.style.top = `${event.clientY}px`;
   dot.style.left = `${event.clientX}px`;
 });
+
+
+const sectionThree = document.querySelector('.section-three');
+const sectionFour = document.querySelector('.section-four');
+
+const observer = new IntersectionObserver(
+  ([entry]) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  },
+  {
+    threshold: 0.4,
+  }
+);
+
+observer.observe(sectionThree);
+observer.observe(sectionFour);

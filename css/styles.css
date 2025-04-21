@@ -481,6 +481,24 @@ a {
     justify-content: center;
 }
 
+.item-about,
+.about-svg-section,
+.text-about-one,
+.text-about-two,
+.text-about-three {
+    opacity: 0;
+    transform: translateY(-90px);
+    transition: all 1.3s ease;
+}
+
+.section-three.visible .item-about,
+.section-three.visible .about-svg-section,
+.section-three.visible .text-about-one,
+.section-three.visible .text-about-two,
+.section-three.visible .text-about-three {
+    opacity: 1;
+    transform: translate(0, 0);
+}
 
  /* < !----------- section4 ---------->  */
 
@@ -548,6 +566,44 @@ a {
     text-align: center;
     color: #204d38;
 }
+
+
+.picture-cont-one,
+.picture-cont-two {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1.5s ease-out;
+}
+
+.section-four.visible .picture-cont-one {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.section-four.visible .picture-cont-two {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.picture-cont-two {
+    transform: translateX(-100px);
+}
+
+.section-four.visible .picture-cont-two {
+    transform: translateX(0);
+}
+
+.construct-cont {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.5s ease-out;
+}
+
+.section-four.visible .construct-cont {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
    /* < !----------- footer ---------->  */
 
